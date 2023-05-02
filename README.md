@@ -20,4 +20,4 @@ Please note that the laser movement is not perfect and multiple attempts were do
 
 ## Screenshots
 
-![image](https://i.imgur.com/BMfcV8o.mp4)
+![image](https://imgur.com/FgEGViO)
