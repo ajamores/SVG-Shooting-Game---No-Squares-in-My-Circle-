@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <!--
+        Author: Armand Amores 000315902
+        Date: 23/03/2023
+        Content for Assignment 04- SVG
+        SVG canvas and base text provided here while other svg elements are dynamically
+        created in the index.js file
+
+    -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>No Squares Inside My Circle!</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+
+</head>
+<body>
+    <header>
+        <h1>No Squares In My Circle!</h1>
+        <h2>By: Armand Amores</h2>
+        
+    </header>
+    <svg id="canvas" width ="1000" height="600" style="border: 5px solid black">
+        <text id="score" x="0" y="20" fill="black">Score: </text>
+        <text id="gameover" x="220" y="550" fill="black"></text>
+        <text id="start" x="160" y="200" fill="black">Press Space Bar To Start!</text>
+    </svg>
+    <button id="addEnemy" onclick="addEnemy()">Add more Enemys!</button>
+
+    <footer >
+        <hr>
+        <p class="text-center">&copy; 2023 Armand Amores, Mohawk College </p>
+      </footer>
+
+    
+
+
+    
+</body>
+</html>

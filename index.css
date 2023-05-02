@@ -1,0 +1,94 @@
+/**
+ * Author: Armand Amores
+ * Student Id: 000315902
+ * Date: 23/03/2023
+ * Contains styles 
+* 
+*/
+#canvas {
+    display: block;
+    margin: auto;
+}
+
+
+
+/** font for entire document*/
+@font-face {
+    font-family: 'Black Ops One';
+    src: url(font/BlackOpsOne-Regular.ttf) format('truetype');
+}
+
+body {
+    font-family: 'Black Ops One', sans-serif;
+}
+
+header h1, h2 {
+    text-align: center;
+}
+
+#score {
+    display: inline-block;
+    
+}
+
+body {
+    background-image: url("blue.jpg");
+}
+
+#canvas {
+    background-color: white;
+    position: relative;
+    
+    
+}
+
+.player {
+    position: relative;
+}
+
+#score {
+    font-size: x-large;
+    user-select: none;
+}
+
+#gameover {
+    font-size: 50px;
+    user-select: none;
+}
+
+#start {
+    font-size: 50px;
+    user-select: none;
+}
+
+footer p {
+    text-align: center;
+}
+
+button {
+    font-size: 20px;
+    background-color: blue;
+    border-radius: 5px;
+    color: white;
+}
+
+/* For screens with a maximum width of 768px */
+@media (max-width: 768px) {
+    #canvas {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  /* For screens with a minimum width of 769px */
+  @media (min-width: 769px) {
+    #canvas {
+      width: 100%;
+      max-width: 1000px;
+      height: auto;
+      margin: 0 auto;
+    }
+  }
+
+ 
+
